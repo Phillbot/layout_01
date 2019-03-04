@@ -1,0 +1,431 @@
+
+/*main*/
+
+/*main red - #ff6d6d*/
+/*main text - #a8a8a8*/
+/*some h2-h6 - #383838*/
+
+/*grey block - #f3f2f0*/
+
+
+/*START*/
+.start {
+    min-height: 100vh;
+    width: 100%;
+    background: url(../img/start-bg.png);
+    background-size: cover;
+    padding-bottom: 100px;
+}
+
+.start-container {
+    position: relative;
+    margin: 0 auto;
+    top: 25vh;
+    text-align: center;
+    max-width: 720px;
+}
+
+
+.start-h1 {
+    font-size: 46pt;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+    color: #383838;
+}
+
+.start-play {
+    position: relative;
+    margin: 55px auto 40px auto;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background: url(../img/start-play-bg.png);
+    opacity: 0.7;   
+}
+
+.start-play:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.start-play-icon {
+    position: absolute;
+    top: 33%;
+    left: 39%;
+}
+
+.start-btn {
+    background: #ff6d6d;
+    width: 195px;
+    margin-bottom: 20px;
+}
+
+/*START END*/
+
+
+/*platform-description*/
+
+.platform-description {
+    padding-bottom: 100px;
+    min-height: 495px;
+}
+
+.platform-description-img {
+    position: absolute;
+    right: 0;
+}
+
+/*platform-description END*/
+
+
+/*awesone*/
+
+.awesone {
+    background: #f3f2f0;
+    min-height: 675px;
+    padding-bottom: 180px;
+}
+
+.pensils {
+    margin-top: -20px;
+}
+
+.awesone-headers {
+    margin-top: -120px;
+}
+
+.awesome-card-h4 {
+    margin: 30px 0 20px 0;
+}
+
+
+/*awesone END*/ 
+
+
+/*responsive*/
+
+.responsive {
+    position: relative;
+    min-height: 550px;
+    background: url(../img/absolute-bg.png)no-repeat;
+    background-position: -95vh;
+    background-size:cover;
+    padding-bottom: 100px;
+}
+
+.responsive-img {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.responsive-cards {
+    padding-top: 200px;
+}
+
+
+
+
+/*responsive END*/
+
+
+/*personal*/
+
+.personal {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    min-height: 650px;
+    background:#05060f url(../img/personal-bg.png);
+}
+
+
+.personal-logo-container {
+    margin-top: 100px;
+}
+/*personal END*/
+
+/*web-page*/
+
+.web-page {
+    background: #f3f2f0;
+    padding-top: 100px;
+    min-height: 750px;
+    padding-bottom: 100px;
+}
+
+.window-img-div{
+    padding-top: 80px;
+    margin-bottom: -100px;
+}
+
+.img-window {
+   
+    width: 100%;
+}
+
+/*web-page END*/
+
+
+
+
+/*contact-form*/
+
+.contact-form {
+    padding: 100px 0 100px 0;
+    min-height: 465px;
+    background: #323969;
+}
+
+.form-send {
+    margin-top: 50px;
+}
+
+
+.form-element {
+    height: 50px;
+    background: #9497ae;
+    width: 100%;
+    line-height: 50px;
+    padding-left: 30px;
+    color: #e3e3e5; 
+}
+
+.form-element-try-it {
+    height: 50px;
+    background: #ff6d6d;;
+    width: 100%;
+    line-height: 50px;
+    text-align: center;
+    color: #e3e3e5; 
+}
+
+
+.arrow-red {
+    margin:0 -30px 20px 0;
+}
+
+.arrow-in span {
+    color: #fff;
+    margin:0 60px 20px 0;
+}
+
+.form-element-try-it:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+
+
+/*contact-form END*/
+
+
+
+/*footer*/
+
+footer {
+    min-height: 330px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.lg-ft-start {
+    position: relative;
+}
+
+.footer-card-h4 {
+    margin-bottom: 30px;
+}
+
+.ex {
+    width: 50px;
+    height: 60px;
+    position: absolute;
+    background: url(../img/ex-bg.png) no-repeat;
+    background-size: cover;
+    top: -20px;
+    left: 70px;
+    line-height: 60px;
+    text-align: center;
+    padding-right: 10px;
+    color: #fff;
+    font-size: 18pt;
+}
+
+footer .grey-p {
+    color: #383838;
+}
+
+.contact-block {
+    position: relative;
+    height: 50px;
+    background: #d1d1d1;
+    width: 100%;
+    line-height: 50px;
+    padding-left: 30px;
+    color: #8c8c8c; 
+}
+
+
+.telergam-send-btn {
+    position: absolute;
+    height: 100%;
+    width: 50px;
+    background: #ff6d6d url(../img/telegram-bg.png) no-repeat;
+    background-size: 60%;
+    background-position: center;
+    top: 0;
+    right: 0;
+
+}
+
+.telergam-send-btn:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.social {
+    width: 70%;
+}
+
+.social-img  {
+    opacity: 0.5;
+}
+
+.social-img:hover {
+
+    opacity: 1;
+}
+/*footer END*/
+
+
+
+
+/*text containers styles*/
+
+.containers-h2 {
+    margin-top: 30px;
+    font-size: 32pt;
+    color: #383838;
+}
+
+.containers-h2 span {
+    color: #ff6d6d;
+}
+
+
+.containers-p {
+    margin-top: 35px;  
+    color: #a8a8a8;
+    text-align: justify;
+}
+
+.mini-red-h4 {
+    color: #ff6d6d;
+    font-size: 15pt;
+}
+
+.another-container-h3 {
+    text-align: center;
+    font-size: 32pt;
+    margin-bottom: 85px;
+}
+
+.over-desings {
+    font-size: 36pt;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+.grey-p {
+    margin: 0;
+    padding: 0;
+    color: #d7d8dd;
+}
+
+.p-red {
+    margin: 0;
+    padding: 0;
+    color: #ff6d6d;
+}
+
+
+/*text containers styles END*/
+
+
+
+
+
+
+
+
+/*@MEDIA*/
+
+@media (max-width: 1200px){
+    .responsive {
+        position: relative;
+        min-height: 550px;
+        background:none;
+        padding-bottom: 100px;
+    } 
+    
+    .social {
+        width: 100%;
+    }
+}
+
+@media (max-width: 992px){
+    .footer-card-h4 {
+        text-align: center;
+        margin: 20px 0 20px 0;
+    }
+
+
+}
+
+@media (max-width: 576px) {
+
+    .awesone-headers {
+        padding-top: 100px;
+        margin-top: 0;
+    }
+
+    .start-container {
+        top: 5vh;
+        max-width: width auto;;
+    }
+
+    body > div.start > div > p {
+        color: #05060f;
+    }
+
+    .responsive-cards {
+        padding-top: 100px;
+    }
+
+    .web-page {
+        min-height: auto;
+    }
+
+    .pensils, .platform-description-img, .responsive-img, .img-window{
+        display: none;
+    }
+
+    .mini-red-h4 {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .personal-card-img {
+        margin-top: 20px;
+    }
+
+   
+
+    footer .col-lg-3, .footer-card-h4 {
+        text-align: left!important;
+    }
+    
+}
+
